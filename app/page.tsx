@@ -8,6 +8,8 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
           HI IVAN
+          <input id="pdffile" name="pdffile" type="file" />
+          <button id="btn">Process</button>
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -16,8 +18,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            This is kevin
-            By{" "}
+            This is kevin By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
